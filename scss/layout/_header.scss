@@ -1,0 +1,110 @@
+.header_area {
+    overflow: hidden;
+    .top_header_boder {
+        height: 6px;
+        background-color: #81b300;
+        border: none;
+    }
+    .inner_header {
+        height: 135px;
+        overflow: hidden;
+    }
+}
+.header_left {
+    float: left;
+    width: 50%;
+    height: 135px;
+    img {
+        margin-top: 35px;
+    }
+    span {
+        display: block;
+        margin-top: 15px;
+    }
+}
+.header_right {
+    float: right;
+    width: 50%;
+    position: relative;
+    height: 135px;
+}
+.small_icon {
+    float: right;
+    width: auto;
+    height: 50px;
+    background-color: #81b300;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    ul {
+        margin-top: 5px;
+        li {
+            display: inline-block;
+            height: 32px;
+            width: 32px;
+            background-color: #1f1f1f;
+            border-radius: 50%;
+            margin-right: 15px;
+            position: relative;
+            transition: 0.3s;
+            &:first-child{
+                margin-left: 15px;
+            }
+            a {
+                display: block;
+                color: #ffffff;
+                top: 7px;
+                left: 8px;
+                position: absolute;       
+            }
+        }
+        .linkedin:hover {
+            background-color: #0077B5;
+        }
+        .twitter:hover {
+            background-color: #00acee;
+        }
+        .pinterest:hover {
+            background-color: #E60023;
+        }
+        .gplus:hover {
+            background-color: #C3473D;
+        }
+        .rss:hover {
+            background-color: #EE802F;
+        }
+    }
+}
+
+.small_menu {
+    bottom: 38px;
+    right: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    ul {
+        
+        li {
+            display: inline-block;
+            position: relative;
+            &::after {
+                content: "";
+                background: #81b300;
+                height: 14px;
+                width: 2px;
+                top: 3px;
+                left: 0;
+                position: absolute;
+            }
+            &:first-child::after{
+                display: none;
+            }
+            a {
+                display: block;
+                font-size: 14px;
+                color: #81b300;
+                margin-left: 10px;
+                margin-right: 5px;
+            }
+        }
+    }
+}

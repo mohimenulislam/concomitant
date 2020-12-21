@@ -1,0 +1,44 @@
+.nav_area {
+    background-color: #81b300;
+    overflow: hidden;
+    .nav_menu {
+        float: left;
+        ul {
+            li {
+                display: inline-block;
+                transition: 0.3s;
+                a {
+                    display: block;
+                    color: #ffffff;
+                    padding: 26px 0;
+                    margin-left: 15px;
+                    &:hover {
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+    .search_bar {
+        float: right;
+        position: relative;
+        input[type = "text"] {
+            padding: 10px;
+            margin-top: 16px;
+            width: 285px;
+            border: 2px solid #dddddd;
+        }
+        button {
+            border: none;
+            background-color: #ffffff;
+            color: #81b300;
+            font-weight: bold;
+            font-size: 16px;
+            position: absolute;
+            top: 25px;
+            right: 10px;
+            cursor: pointer;
+        }
+    }
+    
+}
