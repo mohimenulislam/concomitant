@@ -1,0 +1,79 @@
+.footer_area {
+    background-color: #3b3b3b;
+    .inner_footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 35px 0;
+        .common_footer_child {
+            width: 210px;
+            color: #999999;
+            h3 {
+                color: #666666;
+                margin-bottom: 35px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.cotact_details {
+    p {
+        margin-bottom: 25px;
+    }
+}
+
+.quick_link {
+    ul {
+        li {
+            border-bottom: 1px solid #999999;
+            padding: 5px 0;
+            &:first-child {
+                padding-top: 0;
+            }
+            a {
+                display: block;
+                color: #999999;
+            }
+        }
+    }
+    .list_bottom_border {
+        color: #999999;
+        height: 1px;
+    }
+}
+
+.blog_post {
+    span {
+        display: block;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    a {
+        float: right;
+        color: #81b300;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
+.news_latter {
+    input[type = "text"], input[type = "email"] {
+        width: 100%;
+        background-color: #1f1f1f;
+        padding: 10px;
+        border: none;
+        color: #999999;
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 10px;
+    }
+    button {
+        color: #81b300;
+        background-color: #1f1f1f;
+        font-weight: bold;
+        padding: 8px 14px;
+        border-radius: 7px;
+        border: none;
+
+    }
+}

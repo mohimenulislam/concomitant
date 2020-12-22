@@ -1,0 +1,63 @@
+.main_body {
+    .body_top {
+        background-color: #f2f2f2;
+        img {
+            width: 1140px;
+            margin-top: 30px;
+            margin-bottom: 75px;
+            border: 10px solid #ffffff;
+        }
+    }
+}
+//#########################################################
+
+.body_mid {
+    padding: 45px 0;
+    .inner_body_mid {
+        display: flex;
+        justify-content: space-between;
+        .Vivamuslibero_augue {
+            // margin-top: 45px;
+            text-align: center;
+            width: 210px;
+            h3 {
+                margin: 20px 0;
+                color: #81b300;
+            }
+            p {
+                color: #888888;
+            }
+        }
+    }
+}
+//##########################################################
+
+.body_bottom {
+    padding: 45px 0;
+    .inner_body_bottom {
+        display: flex;
+        justify-content: space-between;
+        .project {
+            width: 210px;
+            img {
+                outline: 1px solid #888888;
+                padding: 5px;
+                width: 200px;
+                height: 130px;
+            }
+            h3 {
+                color: #888888;
+                margin: 20px 0;
+            }
+            p {
+                color: #888888;
+            }
+            a {
+                float: right;
+                font-size: 14px;
+                color: #81b300;
+                margin-top: 5px;
+            }
+        }
+    }
+}

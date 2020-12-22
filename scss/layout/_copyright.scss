@@ -1,0 +1,14 @@
+.copy_right {
+    background-color: #2e2e2e;
+    padding: 20px 0;
+    overflow: hidden;
+    color: #737373;
+    .inner_copy_right {
+        .cp_left {
+            float: left;
+        }
+        .cp_right {
+            float: right;
+        }
+    }
+}
